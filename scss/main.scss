@@ -1,0 +1,118 @@
+$font-stack: 'Spartan', sans-serif;
+
+// Primary Colors
+
+$veryDarkMagenta: hsl(300, 43%, 22%);
+$softPink: hsl(333, 80%, 67%);
+
+// Neutral Colors
+$darkGrayishMagenta: hsl(303, 10%, 53%);
+$lightGrayishMagenta: hsl(300, 24%, 96%);
+
+// Attribution
+$attribution: hsl(228, 45%, 44%);
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font: $font-stack;
+  font-size: 0.83em;
+  max-width: 1440px;
+  min-width: 375px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro {
+
+  .tagline {
+    color: $veryDarkMagenta;
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  .description {
+    color: $darkGrayishMagenta;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 1.5625em;
+  }
+}
+
+.ratings {
+  color: $veryDarkMagenta;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 3.5em;
+
+  .rating {
+    background: #F7F2F7;
+    border-radius: .5em;
+
+    img {
+      width: 1em;
+      height: 1em;
+    }
+  }
+
+}
+
+article {
+
+  background-color: $veryDarkMagenta;
+  border-radius: .5em;
+  max-height: 14.625em;
+  max-width: 21.875em;
+
+  img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+  }
+
+  .name {
+    color: white;
+    font-size: .8125em;
+    font-weight: 700;
+  }
+
+  .status {
+    color: $softPink;
+    font-size: .8125em;
+    font-weight: 400;
+  }
+
+  .review {
+    color: white;
+    font-size: .8125em;
+    font-weight: 500;
+    line-height: 1.375em;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: $attribution;
+}
