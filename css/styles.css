@@ -12,20 +12,16 @@ body {
   min-width: 375px;
 }
 
-.container {
+.top-half {
+  position: relative;
+  top: 7.9375em;
+  left: 10.3125em;
   display: flex;
-  flex-direction: column;
-  height: auto;
-  width: auto;
 }
 
-.center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.intro {
+  width: 40%;
 }
-
 .intro .tagline {
   color: #502050;
   font-size: 3em;
@@ -39,18 +35,39 @@ body {
 }
 
 .ratings {
+  width: 60%;
+}
+.ratings .rating {
   color: #502050;
   font-size: inherit;
   font-weight: 700;
   line-height: 3.5em;
-}
-.ratings .rating {
   background: #F7F2F7;
   border-radius: 0.5em;
+  width: 40%;
 }
 .ratings .rating img {
   width: 1em;
   height: 1em;
+}
+.ratings .rating span {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.ratings .report-guru {
+  position: relative;
+  left: 2em;
+}
+.ratings .best-tech {
+  position: relative;
+  left: 4em;
+}
+
+.buyer-reviews {
+  position: relative;
+  top: 27.125em;
+  left: 10.3125em;
+  display: flex;
 }
 
 article {
