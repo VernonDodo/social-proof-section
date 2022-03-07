@@ -20,17 +20,6 @@ body {
   min-width: 375px;
 }
 
-// .container {
-//   width: 100vw;
-//   height: 100vh;
-// }
-// .center {
-//   position: relative;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
-
 .top-half {
   position: relative;
   top: 7.9375em;
@@ -39,7 +28,8 @@ body {
 }
 
 .intro {
-  width: 40%;
+  max-width: 27.8125em;
+  max-height: 14.6875em;
 
   .tagline {
     color: $veryDarkMagenta;
@@ -49,8 +39,9 @@ body {
 
   .description {
     color: $darkGrayishMagenta;
-    font-size: inherit;
+    font-size: .9375em;
     font-weight: 500;
+    letter-spacing: -1.71px
     line-height: 1.5625em;
   }
 }
