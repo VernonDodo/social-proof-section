@@ -16,30 +16,30 @@ body {
   position: relative;
   top: 7.9375em;
   left: 10.3125em;
+  max-width: 69.375;
+  max-height: 14.6875;
   display: flex;
 }
-
-.intro {
+.top-half .intro {
   max-width: 27.8125em;
   max-height: 14.6875em;
 }
-.intro .tagline {
+.top-half .intro .tagline {
   color: #502050;
   font-size: 3em;
   font-weight: 700;
 }
-.intro .description {
+.top-half .intro .description {
   color: #937b92;
   font-size: 0.9375em;
   font-weight: 500;
   letter-spacing: -1.71px;
   line-height: 1.5625em;
 }
-
-.ratings {
+.top-half .intro .ratings {
   width: 60%;
 }
-.ratings .rating {
+.top-half .intro .ratings .rating {
   color: #502050;
   font-size: inherit;
   font-weight: 700;
@@ -48,19 +48,19 @@ body {
   border-radius: 0.5em;
   width: 40%;
 }
-.ratings .rating img {
+.top-half .intro .ratings .rating img {
   width: 1em;
   height: 1em;
 }
-.ratings .rating span {
+.top-half .intro .ratings .rating span {
   margin-left: 1em;
   margin-right: 1em;
 }
-.ratings .report-guru {
+.top-half .report-guru {
   position: relative;
   left: 2em;
 }
-.ratings .best-tech {
+.top-half .best-tech {
   position: relative;
   left: 4em;
 }
