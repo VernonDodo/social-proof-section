@@ -1,0 +1,173 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+body {
+  background-color: white;
+  font: "Spartan", sans-serif;
+  height: 100vh;
+  margin: auto;
+  width: auto;
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-size: 580px 380px, 1200px 720px;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.container {
+  max-width: 160rem;
+  margin: 6rem 0;
+}
+
+.intro {
+  max-width: 27.8125rem;
+  max-height: 9.625rem;
+  margin-right: 7rem;
+}
+
+.tagline {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.description {
+  color: hsl(303deg, 10%, 53%);
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+
+.rating {
+  background-color: #F7F2F7;
+  width: 27.8125rem;
+  height: 3.5rem;
+}
+
+.report-guru {
+  position: relative;
+  left: 3rem;
+  top: 1.5rem;
+}
+
+.best-tech {
+  position: relative;
+  left: 6rem;
+  top: 3rem;
+}
+
+.stars {
+  max-width: 7.3125rem;
+  padding-right: 0;
+}
+.stars img {
+  max-width: 1.03rem;
+  max-height: 0.986rem;
+  color: #EF9546;
+}
+.stars span {
+  position: relative;
+  top: 0.7rem;
+}
+
+.rating-text {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 0.8125rem;
+  font-weight: bold;
+  line-height: 0.91rem;
+}
+.rating-text p {
+  position: relative;
+  top: 0.8rem;
+}
+
+.buyer-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 21.875rem;
+  height: 14.625rem;
+  background-color: hsl(300deg, 43%, 22%);
+  color: #fff;
+  border-radius: 5%;
+  padding: 1rem 3rem;
+}
+
+.profile-pic {
+  width: fit-content;
+}
+
+.avatar {
+  max-height: 2.5rem;
+  max-width: 2.5rem;
+  border-radius: 50%;
+  float: left;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 0.91rem;
+  margin-bottom: 0.25rem;
+}
+
+.status {
+  color: #EE69A4;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 0.91rem;
+}
+
+.buyer-comment {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.23px;
+}
+
+.irene {
+  margin: 2rem;
+}
+
+.anne {
+  margin-top: 4rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .irene {
+    margin: 2rem 0;
+  }
+
+  .anne {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
